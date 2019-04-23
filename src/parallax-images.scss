@@ -1,0 +1,19 @@
+.parallax-image{
+  height: 90vh;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  @include main-container-settings;
+  h2{
+    @include main-container-h2-settings;
+  }
+  p{
+    font-size: 18px;
+  }
+  button{
+    @include main-container-button-settings;
+  }
+  .text-wrapper{
+    @include center;
+  }
+}

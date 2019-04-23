@@ -1,0 +1,14 @@
+.about-us{
+  width: $container-width;
+  @include main-container-settings;
+  padding: 80px 0;
+  h2{
+    @include main-container-h2-settings;
+  }
+  p{
+    font-size: 18px;
+  }
+  button{
+    @include main-container-button-settings;
+  }
+}

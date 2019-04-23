@@ -1,0 +1,18 @@
+.contact{
+  padding: 80px 0;
+  background-color: $projectColor;
+  .contact-wrapper{
+    width: $bigger-container-width;
+    @include main-container-settings;
+    h2{
+      @include main-container-h2-settings-inverted;
+    }
+    p{
+      color: white;
+      font-size: 18px;
+    }
+    button{
+      @include main-container-button-settings-inverted;
+    }
+  }
+}
