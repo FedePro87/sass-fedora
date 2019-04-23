@@ -23,6 +23,10 @@ footer{
       a{
         color: black;
         margin-left: 10px;
+        &:hover{
+          color: $projectColor;
+          text-decoration: none;
+        }
       }
     }
   }

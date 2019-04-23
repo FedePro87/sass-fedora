@@ -10,5 +10,8 @@
   }
   button{
     @include main-container-button-settings;
+    &:hover{
+      background-color: $projectColorDarker;
+    }
   }
 }

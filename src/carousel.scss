@@ -33,9 +33,12 @@
       display: flex;
       flex: 3;
       flex-wrap: wrap;
-      .tooltip-inner{
-        background-color: white;
+      .tooltip.top .tooltip-inner {
+        background-color:white;
         color: black;
+      }
+      .tooltip.top .tooltip-arrow {
+        border-top-color: white;
       }
       a{
         padding: 0 2px 8px 2px;

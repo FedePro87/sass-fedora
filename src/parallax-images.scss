@@ -12,6 +12,10 @@
   }
   button{
     @include main-container-button-settings;
+    &:hover{
+      background-color: $projectColorDarker;
+      color: white;
+    }
   }
   .text-wrapper{
     @include center;

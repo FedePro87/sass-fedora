@@ -132,9 +132,13 @@ nav {
   flex-wrap: wrap;
 }
 
-#myCarousel .flags .flags-container .tooltip-inner {
+#myCarousel .flags .flags-container .tooltip.top .tooltip-inner {
   background-color: white;
   color: black;
+}
+
+#myCarousel .flags .flags-container .tooltip.top .tooltip-arrow {
+  border-top-color: white;
 }
 
 #myCarousel .flags .flags-container a {
@@ -174,6 +178,10 @@ nav {
   border: 0;
 }
 
+.about-us button:hover {
+  background-color: #c60d5c;
+}
+
 .parallax-image {
   height: 90vh;
   cursor: pointer;
@@ -202,6 +210,11 @@ nav {
   height: 48px;
   padding: 0 15px;
   border: 0;
+}
+
+.parallax-image button:hover {
+  background-color: #c60d5c;
+  color: white;
 }
 
 .parallax-image .text-wrapper {
@@ -274,5 +287,10 @@ footer .footer-links ul li {
 footer .footer-links .footer-imprint a {
   color: black;
   margin-left: 10px;
+}
+
+footer .footer-links .footer-imprint a:hover {
+  color: #d70f64;
+  text-decoration: none;
 }
 
