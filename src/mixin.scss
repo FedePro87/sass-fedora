@@ -1,0 +1,16 @@
+@mixin display-flex{
+  display: flex;
+  align-items: center;
+}
+
+@mixin font-family{
+  font-family: "museo-sans", sans-serif;
+  font-weight: 300;
+}
+
+@mixin center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

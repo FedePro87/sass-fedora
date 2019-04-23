@@ -1,0 +1,49 @@
+#myCarousel{
+  color: white;
+  text-align: center;
+  .carousel-inner{
+    height: 90vh;
+    text-transform: uppercase;
+    position: relative;
+    .item{
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      h1{
+        @include font-family;
+        @include center;
+        font-size: 42px;
+      }
+    }
+  }
+  .flags{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 10px;
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-around;
+    span{
+      flex: 1;
+    }
+    .flags-container{
+      display: flex;
+      flex: 3;
+      flex-wrap: wrap;
+      .tooltip-inner{
+        background-color: white;
+        color: black;
+      }
+      a{
+        padding: 0 2px 8px 2px;
+        img{
+          width: 75%;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

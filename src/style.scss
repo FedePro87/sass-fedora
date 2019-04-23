@@ -1,0 +1,10 @@
+//Qui sono incluse le variabili
+@import "const";
+//Qui sono inclusi i mixin
+@import "mixin";
+//Qui sono incluse le caratteristiche di tutta la pagina
+@import "all";
+
+//La struttura degli import segue esattamente quella della pagina.
+@import "nav";
+@import "carousel";
